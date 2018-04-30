@@ -1,0 +1,18 @@
+Package: Fars
+Type: Package
+Title: Read in FAtality Analysis Reporting System data
+Version: 0.1.0
+Authors@R: person("Yohko", "Tomota", email = "fukeyouko@gmail.com", role = c("aut", "cre"))
+Description: COURSERA peer-review assignment.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Suggests:
+  testthat,
+  rmarkdoewn,
+  knitr
+Imports: dplyr,
+         readr,
+         tidyr,
+         maps
+VignetteBilder: knitr
