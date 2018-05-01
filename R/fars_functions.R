@@ -12,9 +12,9 @@
 #' @export
 #'
 #' @examples
-#' yr <- 2015
+#' \dontrun{yr <- 2015
 #' file <- make_filename(yr)
-#' fars_read(file)
+#' fars_read(file)}
 #'
 fars_read <- function(filename) {
         if(!file.exists(filename))
@@ -37,7 +37,7 @@ fars_read <- function(filename) {
 #' @seealso \link{fars_read}
 #'
 #' @examples
-#' make_filename(2013)
+#' \dontrun{make_filename(2013)}
 #'
 #'
 make_filename <- function(year) {
@@ -59,7 +59,7 @@ make_filename <- function(year) {
 #' @seealso \link{make_filename}
 #'
 #' @examples
-#' fars_read_years(2013)
+#' \dontrun{fars_read_years(2013)}
 #'
 fars_read_years <- function(years) {
         lapply(years, function(year) {
@@ -93,7 +93,7 @@ fars_read_years <- function(years) {
 #' @seealso \link{make_filename}
 #'
 #' @examples
-#' fars_summarize_years(c(2013,2014))
+#' \dontrun{fars_summarize_years(c(2013,2014))}
 #'
 fars_summarize_years <- function(years) {
         dat_list <- fars_read_years(years)
@@ -116,7 +116,7 @@ fars_summarize_years <- function(years) {
 #' @export
 #'
 #' @examples
-#' fars_map_state(1,2013)
+#' \dontrun{fars_map_state(1,2013)}
 #'
 fars_map_state <- function(state.num, year) {
         filename <- make_filename(year)

@@ -17,8 +17,8 @@ Read FARS data file of csv format and return tbl_df.
 If there is no file, error message comes up
 }
 \examples{
-yr <- 2015
+\dontrun{yr <- 2015
 file <- make_filename(yr)
-fars_read(file)
+fars_read(file)}
 
 }

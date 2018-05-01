@@ -18,6 +18,6 @@ map graphics
 generate a map of fatal accidents for a given state and year. An error is raised for invalid state numbers.
 }
 \examples{
-fars_map_state(1,2013)
+\dontrun{fars_map_state(1,2013)}
 
 }

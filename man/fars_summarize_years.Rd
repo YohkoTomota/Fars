@@ -16,7 +16,7 @@ a wide type data frame containing the number of accidents for each month
 generate summary
 }
 \examples{
-fars_summarize_years(c(2013,2014))
+\dontrun{fars_summarize_years(c(2013,2014))}
 
 }
 \seealso{

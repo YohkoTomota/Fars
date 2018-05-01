@@ -16,7 +16,7 @@ A date table including month for all entry in data, or NULL if the given year is
 Read the FARS data from disk for input year and returen a list of data frames
 }
 \examples{
-fars_read_years(2013)
+\dontrun{fars_read_years(2013)}
 
 }
 \seealso{
